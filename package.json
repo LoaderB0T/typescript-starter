@@ -33,7 +33,7 @@
     "@awdware/prettier-config": "^1.0.0",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.8",
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.10.1",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
     "eslint": "^8.53.0",

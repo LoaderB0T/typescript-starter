@@ -45,7 +45,7 @@
     "rimraf": "^5.0.7",
     "ts-jest": "^29.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "prettier": "@awdware/prettier-config",
   "keywords": [

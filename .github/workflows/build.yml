@@ -12,5 +12,5 @@ on:
 
 jobs:
   build:
-    uses: awdware/dev/.github/workflows/nodejs.yml@master
+    uses: awdware/dev/.github/workflows/nodejs.yml@main
     secrets: inherit

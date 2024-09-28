@@ -9,5 +9,5 @@ permissions: {}
 
 jobs:
   build:
-    uses: awdware/dev/.github/workflows/test-results.yml@master
+    uses: awdware/dev/.github/workflows/test-results.yml@main
     secrets: inherit

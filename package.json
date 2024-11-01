@@ -28,7 +28,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@awdware/eslint-config-base": "^2.1.0",
+    "@awdware/eslint-config-base": "^2.1.1",
     "@awdware/eslint-config-nodejs": "^2.0.0",
     "@awdware/prettier-config": "^1.0.0",
     "@jest/globals": "^29.7.0",

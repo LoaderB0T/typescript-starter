@@ -5,7 +5,7 @@
 
 # typescript-starter
 
-Tempalte for TypeScript projects with Jest, ESLint, Prettier, GitHub Actions, and more.
+Template for TypeScript projects with Jest, ESLint, Prettier, GitHub Actions, and more.
 
 ## Motivation 💥
 

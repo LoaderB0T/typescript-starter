@@ -2,11 +2,10 @@
   "name": "typescript-starter",
   "version": "0.0.0",
   "description": "A template for typescript projects",
-  "main": "./lib/cjs/index.js",
+  "main": "./lib/index.js",
   "exports": {
     ".": {
-      "import": "./lib/esm/index.js",
-      "require": "./lib/cjs/index.js"
+      "import": "./lib/index.js"
     }
   },
   "type": "module",
@@ -18,11 +17,7 @@
     "lint": "pnpm eslint ./src/**",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "prebuild": "pnpm rimraf lib",
-    "build": "pnpm build-esm && pnpm build-cjs",
-    "build-base": "tsc -p .",
-    "build-esm": "pnpm build-base --outDir lib/esm",
-    "build-cjs": "pnpm build-base --outDir lib/cjs --module commonjs && pnpm fix-cjs",
-    "fix-cjs": "node --loader ts-node/esm ./fix-cjs.ts",
+    "build": "tsc -p .",
     "test-script": "node --loader ts-node/esm ./src/test.ts"
   },
   "license": "MIT",
